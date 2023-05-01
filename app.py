@@ -55,7 +55,7 @@ model = Model(inputs=[image_model.input, language_model.input], outputs = out)
 
 
 model.compile(loss='categorical_crossentropy', optimizer='RMSprop', metrics=['accuracy'])
-model.load_weights("C:/Users/dmvac/OneDrive/Desktop/Image/mine_model_weights (1).h5")
+model.load_weights("D:\LDRP-ITR\SEM 6\Project\Image_Captioning-with-GUI\mine_model_weights (1).h5")
 
 print("="*50)
 print("MODEL LOADED")
